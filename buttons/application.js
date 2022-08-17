@@ -7,7 +7,7 @@ module.exports = async (bot, interaction) => {
 
     const modal = new Modal()
     .setCustomId('application_modal')
-    .setTitle('Заявление в администрацию');
+    .setTitle('Заявка в администрацию');
 
     const discord = new TextInputComponent()
       .setCustomId('discord')
@@ -32,7 +32,7 @@ module.exports = async (bot, interaction) => {
 
     const time = new TextInputComponent()
       .setCustomId('time')
-      .setLabel("Сколько вы готовы уделять серверу?")
+      .setLabel("Сколько времени вы готовы уделять серверу?")
       .setStyle('SHORT')
       .setPlaceholder(`Указывать в часах. Например: 2-3 часа`)
       .setRequired();
