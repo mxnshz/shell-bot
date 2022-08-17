@@ -22,7 +22,11 @@
     "vk-io": "^4.6.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prettier": "prettier --config .prettierrc \"**/*.{js,ts}\" --write"
   },
-  "author": "Хизpиeв Mancyp"
+  "author": "Хизpиeв Mancyp",
+  "devDependencies": {
+    "prettier": "^2.7.1"
+  }
 }
